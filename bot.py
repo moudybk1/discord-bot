@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Load secrets from .env
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")           # your bot token
-ROLE_ID = os.getenv("ALERT_ROLE_ID", "")     # role to ping (as an integer string)
+ROLE_ID = os.getenv("1408534362215022592", "")     # role to ping (as an integer string)
 
 intents = discord.Intents.default()
 intents.message_content = True
